@@ -1,0 +1,113 @@
+body{
+  background-color:#F5F5F5;
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.line1{
+  text-align: center;
+  font-weight: 200;
+  font-size: 175%;
+  margin-bottom:0;
+}
+
+.line2{
+  text-align: center;
+  font-weight: 600;
+  font-size: 175%;
+  margin-top:0;
+}
+
+.line3{
+  width: 38%;
+  margin: auto;
+  text-align: center;
+  font-weight: 400;
+  color: 	#BEBEBE;
+}
+
+.Supervisor{
+  background-color: white;
+  padding: 20px;
+  width:350px;
+  margin: 15px;
+  border-top: 5px solid cyan;
+  border-radius: 10px;
+  box-shadow: 5px 0 5px -5px #333,
+               0 5px 5px -5px #333,
+             -5px 0 5px -5px #333;
+}
+
+.img-Supervisor{
+  margin-left: auto;
+  display: block;
+}
+
+.TeamBuilder{
+  background-color: white;
+width:350px;
+  padding: 20px;
+  margin: 15px;
+  border-top: 5px solid red;
+  border-radius: 10px;
+  box-shadow: 5px 0 5px -5px #333,
+               0 5px 5px -5px #333,
+             -5px 0 5px -5px #333;
+}
+
+.img-TeamBuilder{
+  margin-left: auto;
+  display: block;
+}
+
+.Karma{
+  background-color: white;
+width:350px;
+  padding: 20px;
+  margin: 15px;
+  border-top: 5px solid yellow;
+  border-radius: 10px;
+  box-shadow: 5px 0 5px -5px #333,
+               0 5px 5px -5px #333,
+             -5px 0 5px -5px #333;
+}
+.img-Karma{
+  margin-left: auto;
+  display: block;
+}
+
+.Calculator{
+  background-color: white;
+width:350px;
+  padding: 20px;
+  margin: 15px;
+  border-top: 5px solid blue;
+  border-radius: 10px;
+  box-shadow: 5px 0 5px -5px #333,
+               0 5px 5px -5px #333,
+             -5px 0 5px -5px #333;
+}
+
+.img-Calculator{
+  margin-left: auto;
+  display: block;
+}
+.box-title{
+  font-weight: 600;
+}
+.box-data{
+  color: 	#BEBEBE;
+  font-weight: 400;
+}
+@media screen and (min-width: 1276px){
+  .Karma{order:5;}
+  .Supervisor{
+    transform: translateY(50%);
+  }
+  .Calculator{
+    transform: translateY(50%);
+  }
+}
